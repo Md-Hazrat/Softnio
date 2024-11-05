@@ -17,7 +17,7 @@ const Info = () => {
             className="w-[300px] h-auto lg:w-[617px] lg:h-[460px]"
           />
         </div>
-        
+
         {/* Left Side */}
         <div className="lg:w-1/2 w-full">
           <ul className="flex items-center gap-3 mb-4 justify-center lg:justify-start">
@@ -48,24 +48,30 @@ const Info = () => {
 
       {/* Other Side */}
       <div className="container mx-auto flex flex-wrap items-center justify-around gap-6 mt-8">
-        <div className="flex items-center gap-3 w-[200px] h-[100px] text-center">
-          <FaDiceD6 className="w-[33.33px] h-[35px] text-[#BD1F17]" />
+        <div className="flex items-center gap-3 w-[230px] h-[100px] text-center">
+          <div className="shadow-md bg-white rounded-full p-4">
+            <FaDiceD6 className="w-[33.33px] h-[35px] text-[#BD1F17]" />
+          </div>
           <div>
             <h1 className="font-bold">Fast Delivery</h1>
             <p>Within 30 minutes</p>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 w-[200px] h-[100px] text-center">
-          <PiMedalBold className="w-[33.33px] h-[35px] text-[#BD1F17]" />
+        <div className="flex items-center gap-3 w-[230px] h-[100px] text-center">
+          <div className="shadow-md bg-white rounded-full p-4">
+            <PiMedalBold className="w-[33.33px] h-[35px] text-[#BD1F17]" />
+          </div>
           <div>
             <h1 className="font-bold">Absolute Dining</h1>
             <p>Best buffet restaurant</p>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 w-[200px] h-[100px] text-center">
-          <IoBagHandle className="w-[33.33px] h-[35px] text-[#BD1F17]" />
+        <div className="flex items-center gap-3 w-[230px] h-[100px] text-center">
+          <div className="shadow-md bg-white rounded-full p-4">
+            <IoBagHandle className="w-[33.33px] h-[35px] text-[#BD1F17]" />
+          </div>
           <div>
             <h1 className="font-bold">Pickup Delivery</h1>
             <p>Grab your food order</p>
