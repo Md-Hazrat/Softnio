@@ -26,14 +26,14 @@ const Book = () => {
                 type="text"
                 id="name"
                 placeholder="Your Name *"
-                className="border border-gray-300 rounded-md p-2 font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/2"
+                className="border border-gray-300 rounded-md p-2 font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/4 h-[50px]"
                 required
               />
               <input
                 type="email"
                 id="email"
                 placeholder="Your Email *"
-                className="border border-gray-300 rounded-md p-2 font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/2"
+                className="border border-gray-300 rounded-md p-2 font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/4 h-[50px]"
                 required
               />
             </div>
@@ -42,14 +42,14 @@ const Book = () => {
                 type="text"
                 id="reservation-date"
                 placeholder="Reservation Date *"
-                className="border border-gray-300 rounded-md p-2 font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/2"
+                className="border border-gray-300 rounded-md p-2 font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/4 h-[50px]"
                 required
               />
               <input
                 type="number"
                 id="total-people"
                 placeholder="Total People *"
-                className="border border-gray-300 rounded-md p-2 font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/2"
+                className="border border-gray-300 rounded-md p-2 font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/4 h-[50px]"
                 required
               />
             </div>
@@ -57,11 +57,11 @@ const Book = () => {
               <textarea
                 id="message"
                 placeholder="Your Message *"
-                className="border border-gray-300 p-2 rounded-md font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full"
+                className="border border-gray-300 p-2 rounded-md font-roboto text-[14px] focus:outline-none focus:ring-2 focus:ring-[#BD1F17] transition duration-200 w-full md:w-1/2 h-[100px]"
                 required
               ></textarea>
             </div>
-            <button className="bg-[#FEBF00] font-roboto text-[18px] font-bold leading-[24px] text-center w-full h-[36px] mt-4 cursor-pointer md:w-auto">
+            <button className="bg-[#FEBF00] font-roboto text-[18px] font-bold leading-[24px] text-center mt-4 cursor-pointer w-[142px] h-[56px] px-[24px] py-[16px] gap-[8px] hover:bg-[#e0a800] transition duration-300">
               Book Now
             </button>
           </form>

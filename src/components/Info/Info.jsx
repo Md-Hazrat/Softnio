@@ -5,8 +5,8 @@ import { IoBagHandle } from "react-icons/io5";
 
 const Info = () => {
   return (
-    <section className="bg-[#FFFFFF] px-4 m-8">
-      <main className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
+    <section className="bg-[#fadcdc] px-4 mt-8">
+      <main className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 ">
         {/* Right Side */}
         <div className="lg:w-1/2 w-full flex justify-center lg:justify-start">
           <img
