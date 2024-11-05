@@ -5,12 +5,12 @@ import { IoBagHandle } from "react-icons/io5";
 
 const Info = () => {
   return (
-    <section className="bg-[#fadcdc] px-4 mt-8">
+    <section className="bg-[#fadcdc] px-4 py-4">
       <main className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 ">
         {/* Right Side */}
         <div className="lg:w-1/2 w-full flex justify-center lg:justify-start">
           <img
-            src="/images/462649317_907275164701048_5688379746998494746_n.png"
+            src="/images/hero-img.png"
             alt="Restaurant Logo"
             width={350}
             height={350}

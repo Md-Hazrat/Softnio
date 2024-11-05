@@ -1,7 +1,7 @@
 import Book from "./components/Book/Book";
 import CardSlider from "./components/CardSlider/CardSlider";
 import Footer from "./components/Foooter/Footer";
-import HeroSection from "./components/Hero/Hero";
+import { Hero } from "./components/Hero/Hero";
 import Info from "./components/Info/Info";
 import Navabe from "./components/Navbar/Navabe";
 import Testimonials from "./components/Testimonials/Testimonials";
@@ -13,7 +13,7 @@ const App = () => {
         <Navabe />
       </header>
       <main>
-        <HeroSection />
+        <Hero />
         <Info />
         <CardSlider />
         <Book />

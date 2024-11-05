@@ -1,37 +1,43 @@
-const HeroSection = () => {
+import React from 'react'
+import heroImg from '../../../public/images/hero-img.png'
+export const Hero = () => {
   return (
-    <section>
-      <div
-        className="h-screen flex items-center justify-center text-white relative"
-        style={{
-          backgroundImage: "url('/images/hero.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-       
-        <div className="absolute inset-0 bg-red-500 opacity-60 md:opacity-50 lg:opacity-40"></div> 
-
-      
-        <div className="relative z-10 text-center px-6 md:px-10 lg:px-20">
-          <h1 className="font-bebas text-[40px] leading-[60px] md:text-[60px] md:leading-[90px] lg:text-[80px] lg:leading-[110px]">
+    <div
+      className=''
+      style={{
+        backgroundImage: "url('/images/hero.png')",
+        backgroundRepeat: "repeat",
+        backgroundAttachment: 'scroll'
+      }}
+    >
+      <div className='
+      py-32 bg-[#aa2c23ef] flex flex-col md:flex-row items-center md:justify-between
+       px-10 md:px-20
+      '>
+        <div className='md:w-2/3 md:transform md:translate-x-20  
+        relative z-[3]'>
+          <h1 className='
+          bg-[#ff00004d] p-3
+         uppercase text-white text-4xl md:text-7xl font-bold'>
             Taste the authentic
-            <br />
             Saudi cuisine
           </h1>
-          <p className="text-lg md:text-xl mt-4">
-            Among the best Saudi chefs in the world, serving <br className="hidden md:block" />
-            you something beyond flavor.
+          <p className='text-white md:pr-52'>
+            Among the best Saudi chefs in the world, serving you something beyond flavor.
           </p>
-
-          {/* CTA Button */}
-          <button className="mt-6 px-6 py-3 bg-[#FEBF00] text-black font-bold text-lg rounded shadow hover:bg-[#e0a800] transition duration-300">
-            Explore Menu
+          <button className="bg-yellow-500 hover:bg-yellow-600 
+          duration-300
+          shadow-xl px-7 py-3 my-2
+          ">
+            EXPLORE MENU
           </button>
         </div>
+        <div className='md:w-1/2 my-5 md:my-0  relative z-[2]'>
+          <img src={heroImg} alt="Hero Image"
+            className="w-5/7"
+          />
+        </div>
       </div>
-    </section>
-  );
-};
-
-export default HeroSection;
+    </div>
+  )
+}
