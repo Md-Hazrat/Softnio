@@ -10,7 +10,7 @@ const Navabe = () => {
         {/* Left Side: Logo and Links */}
         <div className="flex items-center space-x-2">
           <img
-            src="/images/462649317_907275164701048_5688379746998494746_n.png"
+            src="/images/Vector.png"
             alt="Restaurant Logo"
             className="h-10 w-10 rounded-full"
           />
@@ -66,7 +66,12 @@ const Navabe = () => {
               )
             )}
             <li>
-              <a href="/booking" className="block hover:text-gray-300">
+              <a
+                href="/booking"
+                className="bg-yellow-500 hover:bg-yellow-600 
+          duration-300
+          shadow-xl px-7 py-3 my-2"
+              >
                 Book a table
               </a>
             </li>

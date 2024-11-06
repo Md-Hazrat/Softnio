@@ -1,4 +1,4 @@
-import React from 'react'
+
 import heroImg from '../../../public/images/hero-img.png'
 export const Hero = () => {
   return (
